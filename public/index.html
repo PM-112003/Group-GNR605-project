@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Cesium Flood Simulation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Cesium CSS -->
+  <link href="https://unpkg.com/cesium@latest/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="controls">
+    <h3>Flood Simulation</h3>
+    <label>Water level (m): <span id="waterValue">0</span></label>
+    <input id="waterSlider" type="range" min="-10" max="30" step="0.5" value="0" />
+    <br/>
+    <button id="playBtn">Play rise</button>
+    <button id="resetBtn">Reset</button>
+    <p style="font-size:0.9em">Tip: preprocess DEM to <code>data/grid.json</code> and place it in the <code>/data</code> folder.</p>
+  </div>
+
+  <div id="cesiumContainer"></div>
+
+  <!-- Cesium JS (from unpkg CDN) -->
+  <script src="https://unpkg.com/cesium@latest/Build/Cesium/Cesium.js"></script>
+
+  <script src="main.js"></script>
+</body>
+</html>

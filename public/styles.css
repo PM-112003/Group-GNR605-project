@@ -1,0 +1,32 @@
+html, body, #cesiumContainer {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+#cesiumContainer {
+  position: absolute;
+  left: 300px; top: 0; right: 0; bottom: 0;
+}
+#controls {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 270px;
+  background: rgba(255,255,255,0.95);
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+  z-index: 1000;
+}
+#controls h3 {
+  margin: 0 0 8px 0;
+}
+input[type=range] {
+  width: 100%;
+}
+button {
+  margin-top: 6px;
+  margin-right: 8px;
+  padding: 6px 10px;
+}
