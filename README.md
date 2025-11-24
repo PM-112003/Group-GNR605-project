@@ -4,3 +4,6 @@ Made by
 3. Prakash M [22b0353]
 
 Under the guidance of Prof. Surya Durbha in the course GNR605 at IITB.
+
+Project title: Given an urban area map, show dynamically the impact due to flood level rise. Create a simulation model that allows to visualize inundated areas.
+
